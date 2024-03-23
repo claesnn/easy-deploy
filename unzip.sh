@@ -1,0 +1,1 @@
+unzip dist.zip -d dist
