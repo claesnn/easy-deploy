@@ -2,7 +2,7 @@
 set -e
 
 rm -r dist
-unzip dist.zip .
+unzip dist.zip -d .
 docker build -t front-next .
 docker stop front-next
 docker run -d -p 8080:80 --rm --name front-next front-next

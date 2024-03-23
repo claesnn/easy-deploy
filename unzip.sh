@@ -1,2 +1,2 @@
-rm -r dist
+rm -r dist -d .
 unzip dist.zip .
